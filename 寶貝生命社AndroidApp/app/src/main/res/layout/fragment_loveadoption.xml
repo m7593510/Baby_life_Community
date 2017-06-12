@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bingzhong.baby_life_community.LoveadoptionFragment"
+    android:background="@color/gray_back">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Gallery
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:spacing="5dp"
+        android:id="@+id/gal_show">
+    </Gallery>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下一頁"
+        android:id="@+id/Btn_next"
+        android:layout_above="@+id/Btn_adopt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="130dp"
+        android:background="@drawable/next"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ima_love"
+        android:src="@drawable/black_black"
+        android:layout_above="@+id/Btn_next"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/textlove"
+        android:textSize="25sp"
+        android:layout_below="@+id/ima_love"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Btn_adopt"
+        android:text="認養"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/Btn_next"
+        android:layout_alignStart="@+id/Btn_next"
+        android:background="@drawable/adopt"/>
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/back"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/ima_back_love" />
+
+
+</RelativeLayout>

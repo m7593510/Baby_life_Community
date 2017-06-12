@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">寶貝生命社</string>
+    <string name="open">開</string>
+    <string name="close">關</string>
+    <string name="introduction">目前社團尚無能力收容流浪動物，主要是互相交流動物的常見問題和照顧方式，
+                                並且宣導對流浪動物的正確觀念、希望大家能用友善的心去對待流浪動物。</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

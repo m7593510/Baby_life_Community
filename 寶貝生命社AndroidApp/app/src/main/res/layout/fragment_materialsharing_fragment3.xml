@@ -1,0 +1,147 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bingzhong.baby_life_community.MaterialsharingFragment3"
+    android:background="@color/gray_back">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/supply5"
+                android:scaleType="fitXY"
+                android:layout_margin="20dp"
+                android:background="@drawable/animal_food_dog1" />
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="商品名稱: 博士巧斯(幼犬專用)"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="商品敘述: 專為1歲以下幼犬營養需求設計 , 強化天然維生素及有機礦物質 , 守護愛犬消化道健康"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="商品價格: 1460元/1個"
+                    android:textColor="@color/black"/>
+
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/Btn_buy5"
+                    android:layout_marginTop="10dp"
+                    android:text="購買"
+                    android:background="@drawable/buy" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:id="@+id/supply6"
+                android:layout_margin="20dp"
+                android:background="@drawable/animal_food_dog2" />
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="商品名稱: 博士巧斯(成犬專用)"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="商品敘述: 專為1-7歲成犬營養需求設計 , 含有活化益菌、Oligo寡糖守護愛犬消化道健康"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="商品價格: 1400元/1個"
+                    android:textColor="@color/black"/>
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/Btm_buy6"
+                    android:text="購買"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/buy" />
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/back"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/ima_back_share" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:background="@drawable/right"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/ima_right"
+        android:layout_alignTop="@+id/ima_left"
+        android:layout_toRightOf="@+id/ima_left"
+        android:layout_toEndOf="@+id/ima_left" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginStart="120dp"
+        android:id="@+id/ima_left"
+        android:background="@drawable/left"
+        android:layout_marginBottom="13dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
